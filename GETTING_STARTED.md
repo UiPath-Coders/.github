@@ -102,18 +102,6 @@ Never commit directly to `main`.
 3. Store connection details in `config.json` or environment variables — **never hardcode tokens in source files**
 4. Confirm `config.json` is listed in `.gitignore` if it contains environment-specific values
 
----
-
-## Step 8 — Open a Pull Request
-
-When your feature is ready:
-
-1. Push your feature branch
-2. Open a PR from `feature/...` → `develop` on GitHub
-3. Request at least **1 reviewer** from the team
-4. Address feedback, then merge after approval
-
-Periodically, `develop` is merged into `main` once the build is stable.
 
 ---
 
