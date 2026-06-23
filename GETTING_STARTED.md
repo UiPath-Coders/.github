@@ -37,16 +37,7 @@ Rules: lowercase + hyphens only, valid vertical prefix, under 40 characters.
 git clone https://github.com/UiPath-Coders/<your-repo-name>.git
 ```
 
-Then in UiPath Studio:
-
-1. Open **Team** tab → **Open**
-2. Navigate to the cloned folder and open the project
-
-If this is a brand-new UiPath project (no `project.json` yet):
-
-1. In Studio, create a new project via **New Project**
-2. Save it into the cloned folder (Studio will write `project.json` and initial files)
-3. Use **Team > Git Init** to initialize Git tracking — **do NOT run `git init` from the terminal** on a UiPath project
+1. Navigate to the cloned folder and start building your project
 
 ---
 
@@ -63,20 +54,15 @@ Open `README.md` and replace the placeholder sections:
 
 ## Step 5 — Make your first commit
 
-After initializing in Studio:
 
-1. In the **Team** panel, stage your files
-2. Write a commit message using Conventional Commits format:
-   ```
-   feat: initial project scaffold
-   ```
-3. Push to `main`
 
-> Branch protection on `main` should only be enabled **after** this first Studio push succeeds. Enable it in repo Settings → Branches → Add rule → require 1 reviewer.
+1. Push to `main`
+
+
 
 ---
 
-## Step 6 — Set up your working branch
+## Step 6 — Set up your working branch (optional)
 
 Once `main` has the initial commit:
 
@@ -102,5 +88,4 @@ Never commit directly to `main`.
 - [ ] README placeholders filled in
 - [ ] `.gitignore` in place (comes from template — do not modify without team review)
 - [ ] No `.env`, `credentials.json`, Orchestrator tokens, or `appsettings.Production.json` staged
-- [ ] First commit done via Studio's Git panel, not CLI
-- [ ] Branch protection on `main` enabled after first push
+
