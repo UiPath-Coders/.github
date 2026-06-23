@@ -95,15 +95,6 @@ Never commit directly to `main`.
 
 ---
 
-## Step 7 — Connect to Orchestrator (if applicable)
-
-1. In Studio, go to **Orchestrator Settings**
-2. Enter your Orchestrator URL and authenticate
-3. Store connection details in `config.json` or environment variables — **never hardcode tokens in source files**
-4. Confirm `config.json` is listed in `.gitignore` if it contains environment-specific values
-
-
----
 
 ## Checklist before your first push
 
