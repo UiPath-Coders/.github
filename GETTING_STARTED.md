@@ -31,7 +31,7 @@ Rules: lowercase + hyphens only, valid vertical prefix, under 40 characters.
 
 ---
 
-## Step 3 — Clone and open in UiPath Studio
+## Step 3 — Clone your repo
 
 ```bash
 git clone https://github.com/UiPath-Coders/<your-repo-name>.git
